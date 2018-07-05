@@ -12,7 +12,6 @@ import javax.transaction.Transactional;
 import java.util.Optional;
 
 @RunWith(SpringRunner.class)
-@Transactional
 @SpringBootTest
 public class CourseRepoIT {
     @Autowired
